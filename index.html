@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+       <section>
+            <div class="heading-wrap">
+                <h1>Raspberry pi</h1>
+                <p>System info</p>
+            </div>
+       </section>
+
+       <section id="sys-info">
+        <!-- Side panal with the system components sysinfo -->
+        <div id="selection">
+            <div>
+                <!-- CPU -->
+                <div class="component-info" id="cpu">
+                        <div>
+                            <h2>CPU</h2>  
+                            <p id="cpu-temp">Temp 0 C°</p>  
+                            <p id="cpu-utilization">Utilized 0%</p>    	
+                        </div>
+                        <div class="circular-progress" id="cpu-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- RAM -->
+                <div class="component-info" id="ram">
+                    <div>
+                        <h2>RAM</h2>  
+                        <p id="ram-used">Used: 1.2 GB</p>  
+                        <p id="ram-free">Free: 2.8 GB</p>
+                        <p id="ram-total">Total: 4 GB</p>
+                    </div>
+                    <div class="circular-progress" id="ram-progress">
+                        <span class="progress-value">0%</span>
+                    </div>
+                </div>
+                <!-- DISK -->
+                <div class="component-info" id="disk">
+                    <div>
+                        <h2>DISK</h2>  
+                        <p id="disk-used">Used: 0 GB</p>  
+                        <p id="disk-free">Free: 0 GB</p>
+                        <p id="disk-total">Total: 0 GB</p>
+                    </div>
+                    <div class="circular-progress" id="disk-progress">
+                        <span class="progress-value">0%</span>
+                    </div>
+                </div>
+                <!-- NETWORK -->
+                <div class="component-info" id="network">
+                    <div>
+                        <h2>NETWORK</h2>  
+                        <p id="network-up">Up: 1.23 Kb/s</p>  
+                        <p id="network-down">Down: 20.53 Kb/s</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Main Graph -->
+        <div id="graphWrap">
+            <div id="graphBtns">
+            </div>
+            <canvas class="graph" id="mainChart"></canvas>
+        </div>
+       </section> 
+    </main>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
