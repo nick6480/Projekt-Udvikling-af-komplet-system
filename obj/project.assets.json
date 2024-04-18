@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nicko\\.nuget\\packages\\": {}
+    "/Users/allanfrank/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Mit drev\\IBA\\IT-Arkitektur\\2. semester\\Projekt 1\\website\\controller\\controller.csproj",
-      "projectName": "controller",
-      "projectPath": "G:\\Mit drev\\IBA\\IT-Arkitektur\\2. semester\\Projekt 1\\website\\controller\\controller.csproj",
-      "packagesPath": "C:\\Users\\nicko\\.nuget\\packages\\",
-      "outputPath": "G:\\Mit drev\\IBA\\IT-Arkitektur\\2. semester\\Projekt 1\\website\\controller\\obj\\",
+      "projectUniqueName": "/Users/allanfrank/Code/Semester2/Semester2.csproj",
+      "projectName": "Semester2",
+      "projectPath": "/Users/allanfrank/Code/Semester2/Semester2.csproj",
+      "packagesPath": "/Users/allanfrank/.nuget/packages/",
+      "outputPath": "/Users/allanfrank/Code/Semester2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/allanfrank/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

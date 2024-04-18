@@ -1,0 +1,14 @@
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/Semester2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/Semester2.AssemblyInfoInputs.cache
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/Semester2.AssemblyInfo.cs
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/Semester2.csproj.CoreCompileInputs.cache
+/Users/allanfrank/Code/Semester2/bin/Debug/net8.0/Semester2
+/Users/allanfrank/Code/Semester2/bin/Debug/net8.0/Semester2.deps.json
+/Users/allanfrank/Code/Semester2/bin/Debug/net8.0/Semester2.runtimeconfig.json
+/Users/allanfrank/Code/Semester2/bin/Debug/net8.0/Semester2.dll
+/Users/allanfrank/Code/Semester2/bin/Debug/net8.0/Semester2.pdb
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/Semester2.dll
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/refint/Semester2.dll
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/Semester2.pdb
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/Semester2.genruntimeconfig.cache
+/Users/allanfrank/Code/Semester2/obj/Debug/net8.0/ref/Semester2.dll
